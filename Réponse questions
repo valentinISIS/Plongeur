@@ -1,0 +1,12 @@
+Q1.
+
+Pour préserver des incohérences, on peut voir le mot "syncronized" présent
+dans différents endroits du code. Tout d'abord, on peut voir celui-ci dans
+la classe assiette afin que le numéro de l'assiette ne se répète pas. Ensuite,
+il n'y a pas d'incohérence au niveau du nombre d'assiette car tous les laveurs
+possède la même pile d'assiette.
+
+Q2.
+
+L'essuyeur ne peut pas essuyer d'assiette car, au début, il attend que la pile
+ne soit plus vide. Cependant, il n'est pas notifié que la pile d'assiette a changé.
